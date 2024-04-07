@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713e0022c0ffe974bb14d5e0611b0797, type: 3}
+  m_Name: OverheadExerciseSequence
+  m_EditorClassIdentifier: 
+  m_RootIndex: 0
+  m_Manager:
+    rid: 53621145218056194
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 53621145218056194
+      type: {class: SequenceManager, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Data:
+        - rid: 53621145218056195
+        - rid: 53621145218056198
+        - rid: 53621145218056200
+        - rid: 53621145218056202
+        - rid: 53621145218056206
+        m_AvailableIndices:
+          rid: -2
+    - rid: 53621145218056195
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: OverheadExerciseSequence
+        m_Fps: 60
+        m_Start: 0
+        m_Duration: 9.533333333327999
+        m_Parent: -1
+        m_Children: 01000000020000000300000004000000
+        m_Timeline: {fileID: 11400000, guid: 69499785f755f26488865cc8c675567b, type: 2}
+        m_ChildrenTrack: {fileID: -4827016912925570919, guid: 69499785f755f26488865cc8c675567b, type: 2}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 0}
+    - rid: 53621145218056198
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: LookAtPlayer
+        m_Fps: -1
+        m_Start: 0
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 92788c0dec1efa24da88eeae68b2342a, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: -964800016875918370, guid: 69499785f755f26488865cc8c675567b, type: 2}
+    - rid: 53621145218056200
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: CountDown
+        m_Fps: -1
+        m_Start: 2
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 84e3d18ad29cfb34e812272aef5a6d5b, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: -722061839069750444, guid: 69499785f755f26488865cc8c675567b, type: 2}
+    - rid: 53621145218056202
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: AvatarAnimation
+        m_Fps: -1
+        m_Start: 5.999999999996
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 8666d49aaa147284ebb5e8912b724f42, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: -8197083979505977907, guid: 69499785f755f26488865cc8c675567b, type: 2}
+    - rid: 53621145218056206
+      type: {class: TimelineSequence, ns: UnityEngine.Sequences, asm: Unity.Sequences}
+      data:
+        m_Name: GoBackToList
+        m_Fps: -1
+        m_Start: 9.533333333328
+        m_Duration: 2
+        m_Parent: 0
+        m_Children: 
+        m_Timeline: {fileID: 11400000, guid: 69e411e248d00d74497cf8a76a1742de, type: 2}
+        m_ChildrenTrack: {fileID: 0}
+        m_DefaultChildrenTrackName: Sequences
+        m_EditorialClipAsset: {fileID: 8733318424608106054, guid: 69499785f755f26488865cc8c675567b, type: 2}
