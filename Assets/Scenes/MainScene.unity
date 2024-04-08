@@ -2439,6 +2439,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -7537474700060156567, guid: 69e411e248d00d74497cf8a76a1742de, type: 2}
     value: {fileID: 256661099}
+  - key: {fileID: -444834774721326369, guid: 69e411e248d00d74497cf8a76a1742de, type: 2}
+    value: {fileID: 767722086}
   m_ExposedReferences:
     m_References: []
 --- !u!114 &1257652057
@@ -2760,10 +2762,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_CachedValues:
   - 0
+  - 6.949999999996
+  - 6.949999999996
   - 0
-  - 0
-  - 0
-  - 0
+  - 6.949999999996
 --- !u!114 &1447337667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2796,6 +2798,7 @@ PlayableDirector:
   m_SceneBindings: []
   m_ExposedReferences:
     m_References:
+    - 91e2144847c9f5844b4ab3340b57b934: {fileID: 984974208}
     - 1a0d3c409ffdeef4191041832745c31a: {fileID: 10352971}
     - 41e7965d0ab8eaf40b341b5f57596ecf: {fileID: 1698178466}
     - 166244ffac83a914282f821e8bf4ca91: {fileID: 1257652056}
